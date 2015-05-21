@@ -1,0 +1,33 @@
+__author__ = 'Christine'
+
+import os
+import re
+import glob
+
+dirList = os.listdir("/Users/Christine/Music")
+print(dirList)
+
+def playlist_weather(x):
+    return x
+
+weather = ['wind', 'storm', 'sturm', 'snow', 'schnee', 'regen', 'rain', 'hale', 'hagel', 'sunshine', 'sonne', 'wetter', 'weather', 'cloud', 'wolke', 'thunder', 'hurricane', 'skies', 'lightning', 'flood']
+
+# Search through Music-Folder for items with a word from the weather list
+def search():
+    for item in weather:
+        if item in dirList:
+            playlist_weather.append(item)
+        else:
+            continue
+
+# search = re.finditer(weather)
+
+# If there is a matching word form the weather list, append the file to playlist weather
+#for match in search:
+#    playlist_weather.append()
+
+print(playlist_weather)
+
+
+
+
