@@ -1,0 +1,67 @@
+import os
+import os.path
+import sys
+
+# The directory where the music files are
+FOLDER = "/Users/Christine/Music/"
+
+# The keywords that identify the files I want to have in my playlist
+KEYWORDS = """
+wind
+storm
+sturm
+snow
+schnee
+regen
+rain
+hale
+hagel
+sunshine
+sonne
+wetter
+weather
+cloud
+wolke
+thunder
+hurricane
+skies
+lightning
+flood
+""".split()
+
+
+def check_file(d, f):
+
+    p = os.path.join(d, f)
+
+    if not os.path.isfile(p):
+        return None
+
+    if not f.endswith('.mp3'):
+        return None
+
+    for k in KEYWORDS:
+        lowk = k.lower()
+        lowf = f.lower()
+        if lowk in lowf:
+            return p
+
+    return None
+
+# Save the returned list of the search function in 'results'.
+
+# to be able to call os.walk with '.' as argument. . is the current directory, which we changed to with os.chdir
+def main():
+    os.chdir(FOLDER)
+
+    results = []
+
+    for (root, dirs, files) in os.walk('.'):
+        for f in files:
+            r = check_file(root, f)
+            if r: results.append(r)
+
+    for r in results:
+        print(r)
+
+main()
