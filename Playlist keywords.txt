@@ -1,15 +1,21 @@
 Playlist Keywords
 
-SciFi: Robot, Moon, Star, Planet, Space, Science Fiction, Phaser, Alien, UFO, Black Hole, Stern, Rakete, Rocket, Mond, Weltall
+SciFi: [robot, moon, star, planet, space, science fiction, phaser, alien, UFO, black hole, stern, rakete, rocket, mond, weltall]
 
-Seasons: Spring, Summer, Autumn, Winter
+Seasons: [spring, summer, autumn, winter]
 
-Drinks: drink, trink, whiskey, whisky, booze, schnaps, wodka, beer, bier, wein, wine, ale, rum, alkohol, alcohol, met, tea, tee, coffee, champagne, water cola, gin, bourbon, milk, tequila
+Drinks: [drink, trink, whiskey, whisky, booze, schnaps, wodka, beer, bier, wein, wine, ale, rum, alkohol, alcohol, met, tea, tee, coffee, champagne, water cola, gin, bourbon, milk, tequila]
 
-Weather: wind, storm, sturm, snow, schnee, regen, rain, hale, hagel, sunshine, sonne, wetter, weather, cloud, wolke, thunder, hurricane, skies, lightning, flood
+Weather: [wind, storm, sturm, snow, schnee, regen, rain, hale, hagel, sunshine, sonne, wetter, weather, cloud, wolke, thunder, hurricane, skies, lightning, flood]
 
-Drugs: drugs, drogen, cocaine, lsd, koks, hash, mary jane, cigarettes, heroin, cannabis, acid, habit, narcotic, high, numb, dope, trippin
+Drugs: [drugs, drogen, cocaine, lsd, koks, hash, mary jane, cigarettes, heroin, cannabis, acid, habit, narcotic, high, numb, dope, trippin]
 
-Religion: cross, kreuz, gott, god, jesus, crucifiction, ressurection, saint, sanctifie, redemption, vergebung, church, kirche, prophet, believe, belief, glauben, glaube, Heaven, heven, heretic, heilig, holy, hell, h�lle, hymn
+Religion: [cross, kreuz, gott, god, jesus, crucifiction, ressurection, saint, sanctifie, redemption, vergebung, church, kirche, prophet, believe, belief, glauben, glaube, Heaven, heven, heretic, heilig, holy, hell, hölle, hymn]
 
-Death: death, tod, coffin, grab, grave, die, sterben, stirb, sterbe, afterlife, funeral, 
+Death: [death, tod, coffin, grab, grave, die, sterben, stirb, sterbe, afterlife, funeral, burial, beerdigung]
+
+Elements: [fire, feuer, water, wasser, air, luft, earth, erde]
+
+Love: [feeling, love, liebe, gefühl, herz, heart, schmerz, pain, lover, broken, gebrochen, kiss, kuss, leid]
+
+Music: [song, lied, music, musik, instrument, rock, punk, guitar, metal, sound, opera]
