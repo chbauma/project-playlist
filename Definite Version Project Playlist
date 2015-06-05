@@ -1,0 +1,78 @@
+__author__ = 'Christine'
+import os
+import os.path
+import sys
+import re
+
+# The directory where the music files are
+FOLDER = "F:\\Music\\"
+
+#The output file, aka the playlist.
+PLAYLIST = "Playlist_cities.m3u"
+
+# The keywords that identify the files I want to have in my playlist
+KEYWORDS = """New York
+Paris
+San Francisco
+Los Angeles
+Bern
+Rome
+Moscow
+Moskow
+Tokio
+London
+Zurich
+Berlin
+Barcelona""".split('\n')
+
+
+def check_file(root_directory, filename, regex):
+
+    path = os.path.join(root_directory, filename)
+
+    if not os.path.isfile(path):
+        return None
+
+    if not filename.endswith('.mp3'):
+        return None
+
+    if regex.search(filename):
+        #print(path)
+        return path
+    #for k in KEYWORDS:
+    #    lowk = k.lower()
+    #    lowf = filename.lower()
+    #    if lowk in lowf:
+    #        return path
+
+    return None
+
+# Save the returned list of the search function in 'results'.
+
+# to be able to call os.walk with '.' as argument. . is the current directory, which we changed to with os.chdir
+def main():
+    #os.chdir(FOLDER)
+
+    results = []
+    ex = re.compile(r"\b({keywords})\b".format(keywords='|'.join(KEYWORDS)), flags=re.IGNORECASE)
+    
+    for (root, dirs, files) in os.walk(FOLDER):
+        for f in files:
+            r = check_file(root, f, ex)
+            if r: 
+                results.append(r)
+
+    save_playlist(os.path.join(FOLDER, PLAYLIST), results)
+
+    #for r in results:
+    #    print(r)
+
+#main()
+
+#Saves the resulst to the new file, listing each hit on a new line. Handle being the function that writes the playlist. 
+def save_playlist(playlist_path, results):
+    Handle = open(playlist_path, "w")
+    Handle.write("\n".join(results))
+
+
+
