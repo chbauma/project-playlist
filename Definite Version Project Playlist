@@ -78,10 +78,7 @@ def main():
 
 main()
 
-# Attempt to save results to a new file for future reference:
-# with open(PLAYLIresults = []ST, 'w') as f:
-#    for item in results:
-#        f.write(item + '\n')
+# Save results to a new file for future reference:
 
 def save_playlist(playlist_path, results):
     Handle = open(playlist_path, "w")
