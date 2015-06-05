@@ -16,6 +16,15 @@ Paris
 San Francisco
 Los Angeles
 Bern
+Singapur
+Paris
+Rom
+Munich
+Hamburg
+Westerland
+Rio
+Vienna
+Bangkok
 Rome
 Moscow
 Moskow
@@ -67,12 +76,13 @@ def main():
     #for r in results:
     #    print(r)
 
-#main()
+main()
 
-#Saves the resulst to the new file, listing each hit on a new line. Handle being the function that writes the playlist. 
+# Attempt to save results to a new file for future reference:
+# with open(PLAYLIresults = []ST, 'w') as f:
+#    for item in results:
+#        f.write(item + '\n')
+
 def save_playlist(playlist_path, results):
     Handle = open(playlist_path, "w")
     Handle.write("\n".join(results))
-
-
-
