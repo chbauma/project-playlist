@@ -1,16 +1,16 @@
 Playlist Keywords
 
-SciFi: [robot, moon, star, planet, space, science fiction, phaser, alien, UFO, black hole, stern, rakete, rocket, mond, weltall]
+SciFi: [robot, moon, star, planet, space, science fiction, phaser, alien, UFO, black hole, stern, rakete, Rocket, mond, weltall]
 
 Seasons: [spring, summer, autumn, winter]
 
-Drinks: [drink, trink, whiskey, whisky, booze, schnaps, wodka, beer, bier, wein, wine, ale, rum, alkohol, alcohol, met, tea, tee, coffee, champagne, water cola, gin, bourbon, milk, tequila]
+Drinks: [drink, trink, whiskey, whisky, booze, schnaps, wodka, beer, bier, wein, wine, ale, rum, alkohol, alcohol, met, tea, tee, coffee, champagne, water cola, gin, bourbon, milk, tequila, sober]
 
 Weather: [wind, storm, sturm, snow, schnee, regen, rain, hale, hagel, sunshine, sonne, wetter, weather, cloud, wolke, thunder, hurricane, skies, lightning, flood]
 
 Drugs: [drugs, drogen, cocaine, lsd, koks, hash, mary jane, cigarettes, heroin, cannabis, acid, habit, narcotic, high, numb, dope, trippin]
 
-Religion: [cross, kreuz, gott, god, jesus, crucifiction, ressurection, saint, sanctifie, redemption, vergebung, church, kirche, prophet, believe, belief, glauben, glaube, Heaven, heven, heretic, heilig, holy, hell, hölle, hymn]
+Religion: [cross, kreuz, gott, god, jesus, crucifiction, ressurection, saint, sanctifie, redemption, vergebung, church, kirche, prophet, believe, belief, glauben, glaube, heaven, heven, heretic, heilig, holy, hell, hölle, hymn]
 
 Death: [death, tod, coffin, grab, grave, die, sterben, stirb, sterbe, afterlife, funeral, burial, beerdigung]
 
@@ -19,3 +19,11 @@ Elements: [fire, feuer, water, wasser, air, luft, earth, erde]
 Love: [feeling, love, liebe, gefühl, herz, heart, schmerz, pain, lover, broken, gebrochen, kiss, kuss, leid]
 
 Music: [song, lied, music, musik, instrument, rock, punk, guitar, metal, sound, opera]
+
+Cities: [Los Angeles, Berlin, Rome, Rom, San Francisco, Paris, London, New York, Vienna, Edinburgh, Dublin, Moskau, Moscow, Singapur, Bangkok, Barcelona, Hamburg, Zurich, Westerland, Belfast, Boston, Manhattan, Honk Kong, Miami, Nashville, Munich, Waterloo]
+
+Colours: [pink, rot, red, blau, blue, yellow, gelb, grün, green, braun, brown, schwarz, black, white, weiss, lila, violet, violett, azur, sapphire, grau, grey, orange, aquamarine, turquoise, gold, sivler, silber, sienna, umber, lilac, copper, crimson, cyan, salmon]
+
+Christmas: [christmas, weihnachten, holly, bethlehem, three kings, santa, weihnachts, holy night, stille nacht]
+
+Food: [hamburger, sausage, chips, chicken, ham, bacon, cheese, pizza, meal, eat, essen, food, bread, butter, brot, butter, pie, schinken, banana, apple, apfel, vegetables, veggies, candy, gemüse, cherry, honey, ice cream, lollipop, popcorn, pasta, fish, cake, kuchen, strawberry, erdbeere, banane, berry]
